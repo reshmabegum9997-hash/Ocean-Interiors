@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ocean Interiors | UPVC Doors & Windows</title>
+  <style>
+    /* General Styles */
+    body {
+      font-family: 'Segoe UI', Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f5f5f5;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    header {
+      background-color: #003366;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+
+    nav ul {
+      list-style: none;
+      padding: 0;
+      margin: 10px 0;
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+    }
+
+    nav ul li a {
+      color: #fff;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    /* Hero Section */
+    #hero {
+      background: linear-gradient(to right, #004466, #0077aa);
+      color: #fff;
+      text-align: center;
+      padding: 60px 20px;
+    }
+
+    #hero h2 { font-size: 2.5rem; margin-bottom: 10px; }
+
+    button {
+      background-color: #fff;
+      color: #004466;
+      border: none;
+      padding: 12px 25px;
+      margin-top: 20px;
+      cursor: pointer;
+      font-weight: bold;
+      border-radius: 5px;
+      transition: 0.3s;
+    }
+
+    button:hover { background-color: #e0e0e0; }
+
+    /* Icon Buttons Container */
+    .icon-container {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 30px;
+      padding: 40px 20px;
+      background: #fff;
+    }
+
+    .icon-box {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-decoration: none;
+      color: #333;
+      transition: transform 0.2s;
+    }
+
+    .icon-box:hover { transform: translateY(-5px); }
+
+    .icon {
+      width: 60px;
+      height: 60px;
+      border-radius: 15px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 30px;
+      margin-bottom: 8px;
+      border: 1px solid #ddd;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    }
+
+    .blue { background-color: #007bff; color: white; }
+    .green { background-color: #25d366; color: white; }
+    .white { background-color: #ffffff; }
+    .insta { background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%); color: white; }
+
+    /* Content Sections */
+    section {
+      padding: 60px 20px;
+      max-width: 1000px;
+      margin: 20px auto;
+      background-color: #fff;
+      border-radius: 8px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+    }
+
+    h2 { color: #003366; border-bottom: 2px solid #0077aa; padding-bottom: 10px; }
+
+    .gallery-grid { 
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 15px; /* Space between images */
+      padding: 20px;
+    }
+
+    .gallery-grid img {
+      width: 100%;
+      height: 200px; /* Fixed height for uniformity */
+      border-radius: 8px;
+      object-fit: cover;
+    }
+
+    footer {
+      text-align: center;
+      padding: 30px;
+      background-color: #003366;
+      color: #fff;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Ocean Interiors</h1>
+    <nav>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="hero">
+    <h2>Premium UPVC Doors & Windows</h2>
+    <p>Style • Durability • Elegance</p>
+    <button onclick="alert('Thank you for your interest! We will contact you soon.')">Get in Touch</button>
+  </section>
+
+  <div class="icon-container">
+    <a href="tel:+918531082282" class="icon-box">
+      <div class="icon blue">📞</div>
+      <span>Call Now</span>
+    </a>
+
+    <a href="https://wa.me/918531082282" class="icon-box" target="_blank">
+      <div class="icon green">💬</div>
+      <span>WhatsApp</span>
+    </a>
+
+    <a href="https://goo.gl/maps/mc7RqmzFbmM6Q9P88" class="icon-box" target="_blank">
+      <div class="icon white">📍</div>
+      <span>Direction</span>
+    </a>
+
+    <a href="https://www.instagram.com/ocean_interiors_at_pno" class="icon-box" target="_blank">
+      <div class="icon insta">📸</div>
+      <span>Instagram</span>
+    </a>
+  </div>
+
+  <section id="about">
+    <h2>About Us</h2>
+    <p><strong>Ocean Interiors</strong> is your trusted partner for UPVC solutions, serving Tamil Nadu with premium quality doors and windows. Based in Parangipettai, we specialize in crafting high-quality products that combine style, durability, and functionality.</p>
+    <p>Our installations are resistant to weather, sound, and time, ensuring your home remains beautiful and secure for years to come.</p>
+  </section>
+
+  <section id="services">
+    <h2>Our Services</h2>
+    <ul>
+      <li><strong>UPVC Window Installation:</strong> Sliding, Casement, Tilt & Turn, and Fixed Windows.</li>
+      <li><strong>UPVC Door Installation:</strong> Sliding, Casement, French, and Balcony Doors.</li>
+      <li><strong>Mosquito Mesh Solutions:</strong> SS Black Electro Coated and Retractable Systems.</li>
+      <li><strong>Customized Fabrication:</strong> Tailored designs with color options.</li>
+      <li><strong>Commercial & Residential:</strong> Serving Homes, Offices, Hotels, and Hospitals.</li>
+    </ul>
+  </section>
+
+  <section id="gallery">
+    <h2>Project Gallery</h2>
+    <div class="gallery-grid">
+      <img src="C:\Users\user\Desktop\Image folder/picture1.jpeg" alt="UPVC Work">
+      <img src="C:\Users\user\Desktop\Image folder/picture2.jpeg" alt="UPVC Work">
+      <img src="C:\Users\user\Desktop\Image folder/picture3.jpeg" alt="UPVC Work">
+      <img src="C:\Users\user\Desktop\Image folder/picture4.jpeg" alt="UPVC Work">
+      <img src="C:\Users\user\Desktop\Image folder/picture5.jpeg" alt="UPVC Work">
+      <img src="C:\Users\user\Desktop\Image folder/picture6.jpeg" alt="UPVC Work">
+      <img src="C:\Users\user\Desktop\Image folder/picture7.jpeg" alt="UPVC Work">
+      <img src="C:\Users\user\Desktop\Image folder/picture8.jpeg" alt="UPVC Work">
+      <img src="C:\Users\user\Desktop\Image folder/picture9.jpeg" alt="UPVC Work">
+      <img src="C:\Users\user\Desktop\Image folder/picture10.jpeg" alt="UPVC Work">
+      <img src="C:\Users\user\Desktop\Image folder/picture11.jpeg" alt="UPVC Work">
+      <img src="C:\Users\user\Desktop\Image folder/picture12.jpeg" alt="UPVC Work">
+      <img src="C:\Users\user\Desktop\Image folder/picture13.jpeg" alt="UPVC Work">
+      <img src="C:\Users\user\Desktop\Image folder/picture14.jpeg" alt="UPVC Work">
+      <img src="C:\Users\user\Desktop\Image folder/picture15.jpeg" alt="UPVC Work">
+      <img src="C:\Users\user\Desktop\Image folder/picture16.jpeg" alt="UPVC Work">
+      <img src="C:\Users\user\Desktop\Image folder/picture17.jpeg" alt="UPVC Work">
+      <img src="C:\Users\user\Desktop\Image folder/picture18.jpeg" alt="UPVC Work">
+      <img src="C:\Users\user\Desktop\Image folder/picture19.jpeg" alt="UPVC Work">
+      <img src="C:\Users\user\Desktop\Image folder/picture20.jpeg" alt="UPVC Work">
+      <img src="C:\Users\user\Desktop\Image folder/picture21.jpeg" alt="UPVC Work">
+
+    </div>
+  </section>
+
+  <section id="#contact">
+    <h2>Contact Us</h2>
+    <p><strong>Email:</strong> oceaninteriors@gmail.com</p>
+    <p><strong>Phone:</strong> +91 85310 82282</p>
+    <p><strong>Location:</strong> Parangipettai, Tamil Nadu</p>
+  </section>
+  
+  <footer>
+    <p>&copy; 2025 Ocean Interiors. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
